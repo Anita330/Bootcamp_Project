@@ -25,9 +25,8 @@ data "aws_internet_gateway" "existing" {
 #   state = "available"
 # }
 
-data "aws_nat_gateway" "existing" {
-  id = "nat-054be5efc41467fef"
-}
+# data "aws_nat_gateway" "existing" {
+#   id = "nat-054be5efc41467fef"
 
 # data "aws_route_table" "existing" {
 #   filter {
